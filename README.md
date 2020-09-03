@@ -1,6 +1,7 @@
-# aux - WoW 1.12 AddOn
+# aux - WoW AddOn
 
-The most advanced auction house addOn for the 1.12 client with some features more advanced than anything even on retail.
+Updated aux addon to work with 2.4.3 client
+
 
 ## Core Features
 
