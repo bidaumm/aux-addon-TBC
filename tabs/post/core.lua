@@ -193,8 +193,8 @@ function price_update()
     if selected_item then
         local historical_value = history.value(selected_item.key)
         if bid_selection or buyout_selection then
-					unit_start_price = undercut(bid_selection or buyout_selection, stack_size_slider:GetValue(), bid_selection)
-					unit_start_price_input:SetText(money.to_string(unit_start_price, true, nil, nil, true))
+		unit_start_price = undercut(bid_selection or buyout_selection, stack_size_slider:GetValue(), bid_selection)
+		unit_start_price_input:SetText(money.to_string(unit_start_price, true, nil, nil, true))
         end
         if buyout_selection then
 	        unit_buyout_price = undercut(buyout_selection, stack_size_slider:GetValue())
