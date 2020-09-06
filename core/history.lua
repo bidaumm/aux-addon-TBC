@@ -18,7 +18,7 @@ do
 	function get_next_push()
 		if time() > next_push then
 			local date = date('*t')
-			date.hour, date.min, date.sec = 24, 0, 0
+			date.hour = date.hour+1
 			next_push = time(date)
 		end
 		return next_push
